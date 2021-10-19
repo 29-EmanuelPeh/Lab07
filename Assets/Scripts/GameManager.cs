@@ -35,11 +35,4 @@ public class GameManager : MonoBehaviour
         Txt_Message.text = "";
         Txt_Score.text = "SCORE : 0";
     }
-
-    public void GameOver()
-    {
-        Time.timeScale = 0;
-        Txt_Message.text = "GAMEOVER! \nPRESS ENTER TO RESTART GAME.";
-        Txt_Message.color = Color.red;
-    }
 }
